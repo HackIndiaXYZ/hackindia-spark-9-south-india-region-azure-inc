@@ -1,3 +1,74 @@
+# Intelligent Model Router for Cost Optimization
+
+An AI-powered routing system that intelligently selects the most suitable Large Language Model (LLM) for every user query based on its complexity, reducing inference costs while maintaining high response quality.
+
+## Overview
+
+Instead of sending every request to an expensive AI model, our system analyzes the query across multiple dimensions such as reasoning, coding complexity, mathematical depth, context length, task count, and domain expertise. It then routes the request to the most cost-effective model capable of delivering an accurate response.
+
+## Features
+
+Intelligent AI model routing
+Multi-dimensional query complexity analysis
+Cost and latency optimization
+Automatic language detection (Multilingual support)
+Interactive analytics dashboard
+Explainable routing decisions
+Fallback mechanism for complex queries
+
+## Complexity Factors
+
+Reasoning
+Task Count
+Context Length
+Coding Complexity
+Mathematical Complexity
+Domain Expertise
+Safety & Criticality
+
+
+## The dashboard provides:
+
+Query Complexity Radar Chart
+Model Selection
+Complexity Score
+Cost Comparison
+Latency Metrics
+Model Usage Distribution
+Routing Analytics
+
+# Workflow 
+
+User Query
+      │
+      ▼
+Language Detection
+      │
+      ▼
+Complexity Analysis
+      │
+      ▼
+Intelligent Model Router
+      │
+      ▼
+Best Suitable LLM
+      │
+      ▼
+Response Generation
+
+## Goal
+
+To minimize AI inference costs by routing each request to the most efficient model without compromising response quality or user experience.
+
+Future Improvements
+Learning-based routing using reinforcement learning
+User feedback-driven optimization
+Support for additional LLM providers
+Enterprise analytics and monitoring
+
+## Built by Team Azure Inc.
+
+Developed as a hackathon project for Track 3 – Intelligent Model Routing for Cost Optimization.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
