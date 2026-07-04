@@ -37,25 +37,6 @@ Latency Metrics
 Model Usage Distribution
 Routing Analytics
 
-# Workflow 
-
-User Query
-      │
-      ▼
-Language Detection
-      │
-      ▼
-Complexity Analysis
-      │
-      ▼
-Intelligent Model Router
-      │
-      ▼
-Best Suitable LLM
-      │
-      ▼
-Response Generation
-
 ## Goal
 
 To minimize AI inference costs by routing each request to the most efficient model without compromising response quality or user experience.
